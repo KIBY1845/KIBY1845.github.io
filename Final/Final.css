@@ -6,6 +6,8 @@
 
     height: 800px;
     width: 1200px;
+    background-size: 110%;
+    background-position: center 40%;
 }
 
 .ds4.disconnected {
