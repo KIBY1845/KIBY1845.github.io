@@ -2,13 +2,15 @@
 
 .controller.ds4 {
     position: relative;
+
     width: 1200px;
-    height: 675px;
+    height: 700px;
 
     background-image: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Basemod.png");
     background-repeat: no-repeat;
+
     background-position: center center;
-    background-size: 1200px 675px;
+    background-size: 85%;
 }
 
 .ds4.disconnected {
