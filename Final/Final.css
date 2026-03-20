@@ -1,7 +1,7 @@
 /* ===== PRIZYX DS4 CONTROLLER ===== */
 
 .controller.ds4 {
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Basemod.png") no-repeat center;
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Basemod.png") no-repeat center;
     background-size: contain;
 
     height: 800px;
@@ -11,7 +11,7 @@
 }
 
 .ds4.disconnected {
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Disconnected.png") no-repeat center;
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Disconnected.png") no-repeat center;
     background-size: contain;
 
     height: 800px;
@@ -30,7 +30,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Trigger_Pressedmod.png") no-repeat;
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Trigger_Pressedmod.png") no-repeat;
     opacity: 0;
 }
 
@@ -44,7 +44,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Bumpermod.png") no-repeat;
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Bumpermod.png") no-repeat;
     opacity: 0;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Touchpadmod.png") no-repeat center;
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Touchpadmod.png") no-repeat center;
 }
 
 /* HOME BUTTON */
@@ -86,12 +86,12 @@
 }
 
 .ds4 .meta.pressed {
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Homemod.png") no-repeat center;
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Homemod.png") no-repeat center;
 }
 
 /* START / SELECT */
 .ds4 .back, .ds4 .start {
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Selectmod.png");
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Selectmod.png");
     width: 26px;
     height: 43px;
     opacity: 0;
@@ -126,7 +126,7 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/FaceButtonsmod.png");
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/FaceButtonsmod.png");
 }
 
 .ds4 .button.pressed {
@@ -149,7 +149,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Sticksmod.png");
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Sticksmod.png");
     height: 94px;
     width: 94px;
 }
@@ -173,7 +173,7 @@
 }
 
 .ds4 .face {
-    background: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Dpadmod.png");
+    background: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Dpadmod.png");
     position: absolute;
 }
 
@@ -217,5 +217,5 @@
 
 /* START ICON FIX */
 .ds4.white .back, .ds4 .start {
-    background-image: url("https://raw.githubusercontent.com/KIBY1845.github.io/main/Final/Startmod.png");
+    background-image: url("https://raw.githubusercontent.com/KIBY1845/KIBY1845.github.io/main/Final/Startmod.png");
 }
