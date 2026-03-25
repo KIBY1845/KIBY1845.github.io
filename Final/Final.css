@@ -1,13 +1,13 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://iili.io/Ft1susa.gif);
+    background: url(basemod.png);
     height: 700px;
     width: 1200px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
     }
     .ds4.disconnected {
-        background: url(Disconnected.gif);
+        background: url(Disconnected.png);
         height: 700px;
         width: 1200px;
         
