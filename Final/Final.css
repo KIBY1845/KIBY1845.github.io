@@ -1,63 +1,71 @@
-/* BEGIN PS4 Controller Styling */
+/* =========================
+   PS4 / DS4 Custom Skin
+   Stable full version
+   ========================= */
 
 .controller.ds4 {
     position: relative;
     width: 1200px;
-    height: 700px;
-    background: url("https://kiby1845.github.io/Final/Disconnected.png") no-repeat;
-    background-size: 1200px 700px;
+    height: 698px;
+    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0;
+    background-size: 1200px 698px;
 }
 
 .ds4.disconnected {
     position: relative;
     width: 1200px;
-    height: 700px;
-    background: url("https://kiby1845.github.io/Final/Disconnected.png") no-repeat;
-    background-size: 1200px 700px;
+    height: 698px;
+    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0;
+    background-size: 1200px 698px;
 }
 
-/* TRIGGERS */
+/* ---------- Triggers ---------- */
+
 .ds4 .triggers {
     position: absolute;
     width: 598px;
-    height: 90px;
+    height: 91px;
     left: 301px;
-    top: 36.5px;
+    top: 36px;
 }
 
 .ds4 .trigger {
-    width: 99px;
-    height: 90px;
+    width: 100px;
+    height: 91px;
     background: url("https://kiby1845.github.io/Final/Trigger_Pressedmod.png") no-repeat;
+    background-size: 200px 91px;
     opacity: 0;
 }
 
 .ds4 .trigger.left {
     float: left;
+    background-position: 0 0;
 }
 
 .ds4 .trigger.right {
     float: right;
-    background-position-x: 99px;
+    background-position: -100px 0;
 }
 
 .ds4 .trigger.pressed {
     opacity: 1;
 }
 
-/* BUMPERS */
+/* ---------- Bumpers ---------- */
+
 .ds4 .bumpers {
     position: absolute;
     width: 672px;
-    height: 45px;
+    height: 37px;
     left: 263px;
     top: 132px;
 }
 
 .ds4 .bumper {
-    width: 200px;
-    height: 45px;
+    width: 165px;
+    height: 37px;
     background: url("https://kiby1845.github.io/Final/Bumpermod.png") no-repeat;
+    background-size: 165px 37px;
     opacity: 0;
 }
 
@@ -67,14 +75,16 @@
 
 .ds4 .bumper.right {
     float: right;
-    transform: rotateY(180deg);
+    transform: scaleX(-1);
+    transform-origin: center;
 }
 
 .ds4 .bumper.pressed {
     opacity: 1;
 }
 
-/* TOUCHPAD */
+/* ---------- Touchpad ---------- */
+
 .ds4 .touchpad {
     position: absolute;
     width: 350px;
@@ -88,7 +98,8 @@
     background-size: contain;
 }
 
-/* HOME / PS BUTTON */
+/* ---------- PS / Home ---------- */
+
 .ds4 .meta {
     position: absolute;
     width: 100px;
@@ -100,16 +111,10 @@
 .ds4 .meta.pressed {
     background: url("https://kiby1845.github.io/Final/Homemod.png") no-repeat center;
     background-size: contain;
-    left: 550px;
 }
 
-/* PLAYER LEDS / MISC */
-.ds4 .p0 { background-position: 0 -6px; }
-.ds4 .p1 { background-position: 0 -28px; }
-.ds4 .p2 { background-position: 0 -49px; }
-.ds4 .p3 { background-position: 0 -70px; }
+/* ---------- Share / Options ---------- */
 
-/* SHARE / OPTIONS */
 .ds4 .arrows {
     position: absolute;
     width: 352px;
@@ -120,25 +125,22 @@
 
 .ds4 .back,
 .ds4 .start {
+    position: absolute;
     width: 26px;
     height: 43px;
     background: url("https://kiby1845.github.io/Final/Selectmod.png") no-repeat;
+    background-size: 26px 43px;
     opacity: 0;
 }
 
 .ds4 .back {
-    position: absolute;
     left: 170px;
     bottom: -30px;
-    float: left;
 }
 
 .ds4 .start {
-    position: absolute;
     left: 546px;
     bottom: -30px;
-    float: right;
-    background-position: 0 0;
 }
 
 .ds4 .back.pressed,
@@ -146,7 +148,8 @@
     opacity: 1;
 }
 
-/* FACE BUTTONS */
+/* ---------- Face Buttons ---------- */
+
 .ds4 .abxy {
     position: absolute;
     width: 170px;
@@ -157,13 +160,14 @@
 
 .ds4 .button {
     position: absolute;
-    width: 55px;
-    height: 55px;
+    width: 56px;
+    height: 56px;
     background: url("https://kiby1845.github.io/Final/FaceButtonsmod.png") no-repeat;
+    background-size: 224px 113px;
 }
 
 .ds4 .button.pressed {
-    background-position-y: 55px;
+    background-position-y: -57px;
 }
 
 .ds4 .a {
@@ -175,35 +179,37 @@
 .ds4 .b {
     top: 57px;
     right: -3px;
-    background-position: -57px 0;
+    background-position: -56px 0;
 }
 
 .ds4 .x {
     top: 57px;
     left: 0;
-    background-position: -113px 0;
+    background-position: -112px 0;
 }
 
 .ds4 .y {
     left: 58px;
     bottom: 119px;
-    background-position: 55px 0;
+    background-position: -168px 0;
 }
 
-/* STICKS */
+/* ---------- Sticks ---------- */
+
 .ds4 .sticks {
     position: absolute;
-    width: 364px;
-    height: 105px;
+    width: 354px;
+    height: 94px;
     top: 348px;
-    left: 422px;
+    left: 426px;
 }
 
 .ds4 .stick {
     position: absolute;
-    width: 94px;
+    width: 95px;
     height: 94px;
     background: url("https://kiby1845.github.io/Final/Sticksmod.png") no-repeat;
+    background-size: 286px 94px;
 }
 
 .ds4 .stick.left {
@@ -217,18 +223,19 @@
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position: -95px 0;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -192px;
+    background-position: -191px 0;
 }
 
-/* DPAD */
+/* ---------- D-pad ---------- */
+
 .ds4 .dpad {
     position: absolute;
     width: 125px;
-    height: 126px;
+    height: 104px;
     top: 220px;
     left: 286px;
 }
@@ -236,58 +243,74 @@
 .ds4 .face {
     position: absolute;
     background: url("https://kiby1845.github.io/Final/Dpadmod.png") no-repeat;
+    background-size: 179px 104px;
+    opacity: 1;
 }
 
 .ds4 .face.up,
 .ds4 .face.down {
-    width: 37px;
+    width: 44px;
     height: 52px;
 }
 
 .ds4 .face.left,
 .ds4 .face.right {
-    width: 52px;
-    height: 40px;
+    width: 45px;
+    height: 52px;
 }
 
 .ds4 .face.up {
+    left: 40px;
     top: 0;
-    left: 44px;
-    background-position: -37px 0;
-}
-
-.ds4 .face.down {
-    left: 44px;
-    bottom: 0;
     background-position: 0 0;
 }
 
+.ds4 .face.down {
+    left: 40px;
+    bottom: 0;
+    background-position: -45px 0;
+}
+
 .ds4 .face.left {
-    top: 45px;
     left: 0;
-    background-position: 104px 0;
+    top: 26px;
+    background-position: -89px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
     right: 0;
-    background-position: 52px 0;
+    top: 26px;
+    background-position: -134px 0;
 }
 
-.ds4 .face.pressed {
-    background-position-y: 52px;
+.ds4 .face.pressed.up {
+    background-position: 0 -52px;
 }
+
+.ds4 .face.pressed.down {
+    background-position: -45px -52px;
+}
+
+.ds4 .face.pressed.left {
+    background-position: -89px -52px;
+}
+
+.ds4 .face.pressed.right {
+    background-position: -134px -52px;
+}
+
+/* ---------- Half mode ---------- */
 
 .ds4.half {
     margin-top: -300px;
 }
 
-/* WHITE VARIANT */
+/* ---------- Optional white variant ---------- */
+
 .ds4.white .back,
 .ds4.white .start {
     background-image: url("https://kiby1845.github.io/Final/Startmod.png");
+    background-size: 26px 43px;
     width: 26px;
     height: 43px;
 }
-
-/* END PS4 Controller Styling */
