@@ -2,13 +2,13 @@
    PS4 / DS4 Custom Skin
    Stable full version
    ========================= */
-
 .controller.ds4,
 .ds4.disconnected {
     position: relative;
     width: 1200px;
-    height: 740px;
-    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 20px;
+    height: 860px;
+    margin-top: 60px;
+    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 60px;
     background-size: 1200px 698px;
 }
 /* ---------- Triggers ---------- */
