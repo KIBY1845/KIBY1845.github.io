@@ -2,16 +2,9 @@
    PS4 / DS4 Custom Skin
    Stable full version
    ========================= */
-html, body {
-    overflow: visible !important;
-}
-
-.controller,
-.controller-container,
-.controllers,
-.ds4,
 .controller.ds4 {
-    overflow: visible !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
 }
 
 .controller.ds4,
