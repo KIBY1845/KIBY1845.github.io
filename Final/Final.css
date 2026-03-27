@@ -1,16 +1,19 @@
 /*BEGIN PS4 Controller Styling*/
-
 .controller.ds4 {
-    background: url(Basemod.png);
+    background: url(https://kiby1845.github.io/Final/Basemod.png);
     height: 700px;
     width: 1200px;
-}
-
-.ds4.disconnected {
-    background: url(Basemod.png);
-    height: 700px;
-    width: 1200px;
-}
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+    }
+    .ds4.disconnected {
+        background: url(https://kiby1845.github.io/Final/Basemod.png);
+        height: 700px;
+        width: 1200px;
+        
+        /* margin-left: -403px;
+            margin-top: -280px;*/
+    }
 
 .ds4 .triggers {
     width: 598px;
@@ -56,6 +59,8 @@
 }
 
 .ds4 .bumper.left {
+    /* -webkit-transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
     float: left;
 }
 
@@ -90,22 +95,18 @@
     left: 550px;
 }
 
-.ds4 .p0 {
-    background-position: 0 -6px;
+.ds4 .p0{
+background-position: 0 -6px;
 }
-
-.ds4 .p1 {
-    background-position: 0 -28px;
+.ds4 .p1{
+background-position: 0 -28px;
 }
-
-.ds4 .p2 {
-    background-position: 0 -49px;
+.ds4 .p2{
+background-position: 0 -49px;
 }
-
-.ds4 .p3 {
-    background-position: 0 -70px;
-}
-
+.ds4 .p3{
+background-position: 0 -70px;
+}*/
 .ds4 .arrows {
     position: absolute;
     width: 352px;
@@ -114,37 +115,38 @@
     left: 227px;
 }
 
-.ds4 .back, 
-.ds4 .start {
+.ds4 .back, .ds4 .start {
     background: url(Selectmod.png);
     width: 26px;
     height: 43px;
     opacity: 0;
 }
-
 .ds4 .start {
     position: absolute;
     left: 546px;
     bottom: -30px;
 }
-
 .ds4 .back {
     position: absolute;
     left: 170px;
     bottom: -30px;
 }
 
-.ds4 .back.pressed, 
-.ds4 .start.pressed {
+
+.ds4 .back.pressed, .ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
     opacity: 1;
 }
 
 .ds4 .back {
     float: left;
+    /* width: 28px; */
 }
 
 .ds4 .start {
     float: right;
+    /* width: 28px; */
     background-position: 0px 0;
 }
 
@@ -165,6 +167,7 @@
 
 .ds4 .button.pressed {
     background-position-y: 55px;
+    /* margin-top: 5px; */
 }
 
 .ds4 .a {
@@ -236,14 +239,12 @@
     position: absolute;
 }
 
-.ds4 .face.up, 
-.ds4 .face.down {
+.ds4 .face.up, .ds4 .face.down {
     width: 37px;
     height: 52px;
 }
 
-.ds4 .face.left, 
-.ds4 .face.right {
+.ds4 .face.left, .ds4 .face.right {
     width: 52px;
     height: 40px;
 }
@@ -273,6 +274,7 @@
 }
 
 .ds4 .face.pressed {
+    /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
@@ -282,8 +284,7 @@
 
 /*END PS4 Controller Styling*/
 
-.ds4.white .back,
-.ds4.white .start {
+.ds4.white .back, .ds4 .start {
     background-image: url(Startmod.png);
     width: 26px;
     height: 43px;
