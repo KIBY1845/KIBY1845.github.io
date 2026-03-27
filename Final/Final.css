@@ -3,19 +3,12 @@
    Stable full version
    ========================= */
 
-.controller.ds4 {
-    position: relative;
-    width: 1200px;
-    height: 698px;
-    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0;
-    background-size: 1200px 698px;
-}
-
+.controller.ds4,
 .ds4.disconnected {
     position: relative;
     width: 1200px;
-    height: 698px;
-    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0;
+    height: 740px;
+    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 20px;
     background-size: 1200px 698px;
 }
 /* ---------- Triggers ---------- */
