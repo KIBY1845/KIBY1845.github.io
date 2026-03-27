@@ -2,18 +2,23 @@
    PS4 / DS4 Custom Skin
    Stable full version
    ========================= */
-.controller.ds4,
-.ds4.disconnected {
-    position: relative !important;
-    width: 1200px !important;
-    height: 698px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    top: -280px !important;
-    left: 0 !important;
-    background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0 !important;
-    background-size: 1200px 698px !important;
-}
+.ds4 .triggers
+.ds4 .trigger
+.ds4 .bumpers
+.ds4 .bumper
+.ds4 .touchpad
+.ds4 .meta
+.ds4 .arrows
+.ds4 .back
+.ds4 .start
+.ds4 .abxy
+.ds4 .button
+.ds4 .sticks
+.ds4 .stick
+.ds4 .dpad
+.ds4 .face
+.ds4.half
+.ds4.white ...
    
 
 /* ---------- Triggers ---------- */
