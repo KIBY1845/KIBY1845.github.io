@@ -8,10 +8,11 @@
     height: 698px;
     background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0;
     background-size: 1200px 698px;
+           /* margin-left: -403px;
+            margin-top: -280px;*/
 }
 
-margin-top: 280px !important;
-margin-left: -403px !important;
+
 
 .ds4.disconnected {
     position: relative;
@@ -19,10 +20,10 @@ margin-left: -403px !important;
     height: 698px;
     background: url("https://kiby1845.github.io/Final/Basemod.png") no-repeat 0 0;
     background-size: 1200px 698px;
+           /* margin-left: -403px;
+            margin-top: -280px;*/
 }
    
-margin-top: 280px !important;
-margin-left: -403px !important;
 
 /* ---------- Triggers ---------- */
 
